@@ -32,3 +32,21 @@ body{
     font-size: larger;
     font-weight: 800;
 }
+
+.game-container{
+    height: 36rem;
+    width: 36rem;
+    display: grid;
+    grid-template: repeat(25 ,1fr) / repeat(25, 1fr);
+
+}
+
+.food{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.snake{
+    /* background-color: rgba(95, 38, 94, 0.704); */
+    background-color: green;
+}
